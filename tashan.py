@@ -17,7 +17,7 @@ if sys.platform == "win32":
     sys.stdout.reconfigure(encoding='utf-8')
 
 # ========================= CONFIG =========================
-BOT_TOKEN = "8993773932:AAFiusy9VNC9PMvdwQSXA93tPThJ9Uf8nAg"  
+BOT_TOKEN = "8955096072:AAGJei1jbydABNx_aTqpXMhLs6jWxtMJXEk"  
 YOUR_TELEGRAM_ID = 6213657026
 USERS_FILE = "users.txt"
 
@@ -135,11 +135,11 @@ async def join_request(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await asyncio.sleep(0.5)
 
         # 4. START BUTTON
-        keyboard = [[InlineKeyboardButton("🚀 START BOT", url="https://t.me/Tashanwinnumberhackbot?start=welcome")]]
+        keyboard = [[InlineKeyboardButton("🚀 START BOT", url="https://t.me/Primiumnumberhackbot?start=welcome")]]
         reply_markup = InlineKeyboardMarkup(keyboard)
         await send_with_retry(context.bot, user_id, lambda: context.bot.send_message(
             chat_id=user_id,
-            text="<b>✅ Ab aap ready ho! Bot use karne ke liye neeche button dabayein 👇</b>",
+            text="<b>✅ Deposit karke Screenshot Sand karo 😄</b>",
             parse_mode='HTML',
             reply_markup=reply_markup
         ))
